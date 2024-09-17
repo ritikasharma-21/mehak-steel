@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Mehak</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" /> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="images/x-icon" href="images/logo.png">
+
+
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <div class="container-fluid bg-blue">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-blue py-1">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png"
+                            class="rounded-circle logo"></a>
+                    <button class="navbar-toggler border-0 px-2 shadow-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-lg-5">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="services.html">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about-us">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="our-work.html">OUR WORK</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#contact">CONTACT US</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid carousel-top">
+            <div class="row">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/pixelcut-export.jpeg" alt="pixelcut-export">
+                        <div class="carousel-caption">
+                            <h1 class="text-uppercase">Mehak Steel Fabricator</h1>
+                            <a href="#services" type="button"
+                                class="btn btn-primary bg-blue rounded-5 py-1 px-3 mt-3">Show More <i
+                                    class="bi bi-chevron-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-index" id="services">
+            <div class="container-fluid services">
+                <div class="container text-center pt-5">
+                    <h2 class="mb-5 display-4 cinzel">SERVICES</h2>
+                    <div class="row col-lg-12 mx-auto row-cols-1 row-cols-sm-2 row-cols-md-3 row-gap-3">
+                        <a href="services.html#gates" class="text-decoration-none">
+                            <div class="col d-flex justify-content-center">
+                                <div class="card border-0">
+                                    <img src="images/iron gate.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>GATES</h4>
+                                        <p class="card-text">Gates give the first impression to your guests, visitors,
+                                            and
+                                            anyone passing through your houses, offices.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="services.html#railing" class="text-decoration-none">
+                            <div class="col d-flex justify-content-center">
+
+                                <div class="card border-0">
+                                    <img src="images/railing.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>STAIRCASE RAILING</h4>
+                                        <p class="card-text">Installing balconies is extremely crucial to ensure the
+                                            all-
+                                            around
+                                            safety of your property. Most of us are using</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                        <a href="services.html#wall" class="text-decoration-none">
+                            <div class="col d-flex justify-content-center">
+
+                                <div class="card border-0">
+                                    <img src="images/Boundary Walls.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>BOUNDARY WALL</h4>
+                                        <p class="card-text">Boundary walls may sound unappealing and somethingthat
+                                            dulls
+                                            your
+                                            space’s overall look, but that’s not</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="services.html#sheds" class="text-decoration-none">
+                            <div class="col d-flex justify-content-center">
+
+                                <div class="card border-0">
+                                    <img src="images/Roofing SHEDS.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>ROOFING SHEDS</h4>
+                                        <p class="card-text">A good roof means a good house. Roofing is a very
+                                            crucial
+                                            part of any living space project, know the fact that the</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                        <a href="services.html#shutter" class="text-decoration-none">
+                            <div class="col d-flex justify-content-center">
+
+                                <div class="card border-0">
+                                    <img src="images/Rolling Shutter.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>ROLLING SHUTTER
+                                        </h4>
+                                        <p class="card-text">Window and door enhancements can work wonders to your
+                                            space, Shutters can give your house a luxurious look. Be it</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="services.html#grills" class="text-decoration-none">
+                            <div class="col d-flex justify-content-center">
+
+                                <div class="card border-0">
+                                    <img src="images/Iron Grills.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h4>IRON GRILLS</h4>
+                                        <p class="card-text">Having window grills is an age-old practice that has
+                                            been
+                                            followed across the globe. What makes having iron grill bars</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="container-fluid about-us" id="about-us">
+                    <div class="container text-center">
+                        <div class="py-5">
+                            <h3 class="fw-bold">To get affordable On-Site Fabrication Services in Delhi NCR</h3>
+                            <h3><a href="tel:+91 9818744661" class="text-decoration-none text-orange fw-bold">CALL
+                                    NOW-
+                                    98187-44661,
+                                    98187-40661</a>
+                            </h3>
+                        </div>
+                        <div class="card text-bg-dark position-relative">
+                            <img src="images/about.jpg" class="card-img" alt="about">
+                            <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+                            <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                                <div class="col-lg-8 mx-auto">
+                                    <h2 class="card-title text-orange py-lg-3 py-md-5 fw-bold">ABOUT US</h2>
+                                    <h5 class="card-text lh-base fw-light">Fabrication World is the trusted name in the
+                                        manufacturing
+                                        market
+                                        as Quality Metal fabrication service provider in
+                                        Delhi NRC . Since its inception in 2000, we have raised the level of Iron and
+                                        Steel
+                                        Fabrication. We fabricate with selected iron and steel which is best in class
+                                        for
+                                        any
+                                        kind of fabrication work. We pass our work through various quality tests and
+                                        checks.
+                                        The
+                                        quality checks are strict to guidelines and quality standards set by us based on
+                                        material strength, fabrication process, galvanization process and more factors.
+                                        Being
+                                        the most trusted fabrication shop in Delhi, Fabrication world has redefined the
+                                        processes of Iron Fabrication and Metal Fabrication.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid testimonials">
+                    <div class="container text-center">
+                        <h2 class="fw-bold py-5">TESTIMONIALS</h2>
+                        <div class="row d-flex align-items-center row-gap-4">
+                            <div class="col-lg-5 col-md-12 col-sm-12">
+                                <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
+                                    <h3>We place huge value on strong
+                                        relationships and have seen the benefit
+                                        they bring to our business. Customer
+                                        feedback is vital in helping us to get it
+                                        right.
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-sm-12">
+                                <div
+                                    class="col-lg-8 col-md-8 col-sm-12 mx-auto bg-orange text-center text-white p-4 shadow-lg">
+                                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <h4>Excellent Craftsmanship and Timely Delivery
+                                                </h4>
+                                                <img src="images/client-2.png" class="rounded-5 mt-2">
+                                                <div class="my-2">
+                                                    <i class="bi bi-star-fill text-yellow"></i>
+                                                    <i class="bi bi-star-fill text-yellow"></i>
+                                                    <i class="bi bi-star-fill text-yellow"></i>
+                                                    <i class="bi bi-star-half text-yellow"></i>
+                                                </div>
+                                                <p class="mt-4">I had a custom gate and railing designed for my home,
+                                                    and I couldn't be happier with the results. The gate and railing
+                                                    are both sturdy and stylish. Highly recommended for anyone looking
+                                                    for durable, custom metalwork!</p>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <h4>Reliable and Professional Service
+                                                </h4>
+                                                <img src="images/client-1.png" class="rounded-5 mt-2">
+                                                <div class="my-2">
+                                                    <i class="bi bi-star-fill text-yellow"></i>
+                                                    <i class="bi bi-star-fill text-yellow"></i>
+                                                    <i class="bi bi-star-half text-yellow"></i>
+                                                    <i class="bi bi-star text-yellow"></i>
+                                                </div>
+                                                <p class="mt-4">Their service was exceptional from start to finish. The
+                                                    fabrication was precise, and the team was very professional
+                                                    throughout the installation process. They worked closely with us to
+                                                    ensure the design and functionality met our needs.
+                                                    The shutters operate smoothly, and the boundary walls provide the
+                                                    extra security we needed. I’m very pleased with the
+                                                    results and would definitely use their services again.</p>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <h4>High-Quality Sheds and Gates
+                                                </h4>
+                                                <img src="images/client-3.png" class="rounded-5 mt-2">
+                                                <div class="my-2">
+                                                    <i class="bi bi-star-fill text-yellow"></i>
+                                                    <i class="bi bi-star-fill text-yellow"></i>
+                                                    <i class="bi bi-star-fill text-yellow"></i>
+                                                    <i class="bi bi-star-fill text-yellow"></i>
+                                                </div>
+                                                <p class="mt-4">The team was responsive and provided detailed
+                                                    information about the materials and process. The shed is solid and
+                                                    weather-resistant, and the gate adds both security and a stylish
+                                                    touch to the property. Although there was a slight
+                                                    delay due to weather, the company kept me informed at every step,
+                                                    which I appreciated. Overall, fantastic work at a
+                                                    reasonable price.</p>
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button"
+                                            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div
+                                class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-lg-end justify-content-center">
+                                <a href="our-work.html"><img src="images/our-work.png" class="mw-100"
+                                        alt="Our Work"></a>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 pt-5 ps-lg-5">
+                                <h2 class="text-orange">SERVICES</h2>
+                                <ul class="ps-0 lh-1" style="list-style-type:none ;">
+                                    <a href="services.html#gates" class="text-decoration-none text-dark">
+                                        <li class="d-flex align-items-center lead fw-semibold"><i
+                                                class="bi bi-arrow-right-short fs-1 text-orange"></i>
+                                            Iron Gate</li>
+                                    </a>
+                                    <a href="services.html#sheds" class="text-decoration-none text-dark">
+                                        <li class="d-flex align-items-center lead fw-semibold"><i
+                                                class="bi bi-arrow-right-short fs-1 text-orange"></i>
+                                            Roofing Shed</li>
+                                    </a>
+                                    <a href="services.html#shutter" class="text-decoration-none text-dark">
+                                        <li class="d-flex align-items-center lead fw-semibold"><i
+                                                class="bi bi-arrow-right-short fs-1 text-orange"></i>
+                                            Rolling Shutter</li>
+                                    </a>
+                                    <a href="services.html#wall" class="text-decoration-none text-dark">
+                                        <li class="d-flex align-items-center lead fw-semibold"><i
+                                                class="bi bi-arrow-right-short fs-1 text-orange"></i>
+                                            Boundary Wall</li>
+                                    </a>
+                                    <a href="services.html#railing" class="text-decoration-none text-dark">
+                                        <li class="d-flex align-items-center lead fw-semibold"><i
+                                                class="bi bi-arrow-right-short fs-1 text-orange"></i>
+                                            Staircase Railing</li>
+                                    </a>
+                                    <a href="services.html#fabrication" class="text-decoration-none text-dark">
+                                        <li class="d-flex align-items-center lead fw-semibold"><i
+                                                class="bi bi-arrow-right-short fs-1 text-orange"></i>
+                                            Custom Fabrication
+                                        </li>
+                                    </a>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid contact" id="contact">
+                <div class="text-white">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 p-5">
+                            <h2 class="text-orange">CONTACT US</h2>
+                            <ul class="ps-0 lh-lg" style="list-style-type:none ;">
+                                <a href="mailto:nafees.ahmed@mehaksteelfabricator.in"
+                                    class="text-decoration-none text-white">
+                                    <li class=" d-flex align-items-center"><i
+                                            class="bi bi-envelope text-orange fs-4 me-2"></i>nafees.ahmed@mehaksteelfabricator.in
+                                    </li>
+                                </a>
+                                <a href="tel:+91 98187-44661" class="text-decoration-none text-white">
+                                    <li class="d-flex align-items-center"><i
+                                            class="bi bi-telephone-inbound text-orange fs-4 me-2"></i>
+                                        <h3>Call Us Now</h3>
+                                    </li>
+                                    <li>98187-44661, 98187-40661</li>
+
+                                </a>
+                                <li class="d-flex align-items-center"><i
+                                        class="bi bi-smartwatch text-orange fs-4 me-2"></i>
+                                    <h3>Opening Hours</h3>
+                                </li>
+                                <li>Mon – Sat 10:00AM to 6:00PM</li>
+
+                                <li class=" d-flex align-items-center"><i
+                                        class="bi bi-geo-alt text-orange fs-4 me-2"></i>
+                                    <h3>Location</h3>
+                                </li>
+                                <li>GROUND FLOOR, HOUSE NO-677 GALI NO11, BLOCK-L-1ST, SANGAM VIHAR SOUTH DELHI
+                                    110080
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 p-0">
+                            <div id="map" class="border"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map').setView([28.505264, 77.248089], 15); // Zoom level is 15
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        map.on('click', function (e) {
+            const lat = e.latlng.lat;
+            const lng = e.latlng.lng;
+            L.popup()
+                .setLatLng(e.latlng)
+                .setContent(`You clicked the map at latitude: ${lat.toFixed(5)}, longitude: ${lng.toFixed(5)}`)
+                .openOn(map);
+        });
+
+        const sangamViharLocation = [28.505264, 77.248089];
+        L.marker(sangamViharLocation)
+            .addTo(map)
+            .bindPopup('<strong>GROUND FLOOR, HOUSE NO-677</strong><br>GALI NO-11, BLOCK-L-1ST<br>SANGAM VIHAR SOUTH DELHI 110080')
+            .openPopup();
+    </script>
+</body>
+
+</html>
